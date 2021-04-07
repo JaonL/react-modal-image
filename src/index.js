@@ -24,7 +24,8 @@ export default class extends Component {
       hideDownload,
       hideZoom,
       showRotate,
-      imageBackgroundColor
+      imageBackgroundColor,
+      onError
     } = this.props;
     const { modalOpen } = this.state;
 
@@ -41,6 +42,7 @@ export default class extends Component {
           src={small}
           srcSet={smallSrcSet}
           alt={alt}
+          onError={(e) => onError(e)}
         />
         {modalOpen && (
           <Lightbox

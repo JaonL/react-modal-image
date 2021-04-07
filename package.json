@@ -1,7 +1,7 @@
 {
-  "name": "react-modal-image",
+  "name": "@jaon/react-modal-image",
   "version": "2.5.0",
-  "description": "Lightweight Lightbox React Component",
+  "description": "Lightweight Lightbox React Component (Fork)",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -45,7 +45,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aautio/react-modal-image"
+    "url": "https://github.com/JaonL/react-modal-image"
   },
   "author": "Ari Autio <ari.autio@iki.fi>",
   "license": "MIT",

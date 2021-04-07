@@ -5,6 +5,8 @@
 
 A _lightweight_ React component providing modal image Lightbox.
 
+(This is a fork of the original)
+
 [DEMO](https://aautio.github.io/react-modal-image/)
 
 ## Features
